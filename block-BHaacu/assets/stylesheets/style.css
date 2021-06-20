@@ -692,4 +692,361 @@ img {
 .copyright-text span {
   color: #a9a6a5;
 }
+
+.industry-leader h2 {
+  font-weight: 900;
+}
+
+.ideas .ideas-content {
+  padding-bottom: 2rem;
+}
+
+.ideas i {
+  font-size: 4rem;
+}
+
+.ideas h4 {
+  padding-bottom: 0.75rem;
+}
+
+.team {
+  background: #f2f2f2;
+}
+
+.team .section-heading h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.team .section-heading p {
+  color: #1b1e24;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.team-img {
+  background: #fff;
+}
+
+.best-solutions h2 {
+  font-weight: 900;
+}
+
+.best-solutions p {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.best-solutions .btn {
+  margin-top: 1rem;
+}
+
+.products-container {
+  border-bottom: 2px solid #faf1f1;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+
+.products-container .product-img {
+  width: 30%;
+}
+
+.products-container:last-child {
+  border-bottom: none;
+  margin-bottom: 2rem;
+}
+
+.best span {
+  height: 30px;
+  width: 2px;
+  background: #fff;
+}
+
+.awards .award-img {
+  width: 20%;
+}
+
+.awards h3 {
+  font-weight: 900;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pricing {
+  background: #f2f2f2;
+}
+
+.pricing .section-heading {
+  width: 70%;
+  margin: auto auto;
+}
+
+.price-card-container {
+  margin-top: 4rem;
+}
+
+.price-card {
+  border: 2px solid #dbd8d8;
+  padding: 2rem;
+}
+
+.price-card h2 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.price-card h4 {
+  padding-bottom: 1rem;
+}
+
+.price-card .includes p {
+  padding-bottom: 1rem;
+  color: #1b1e24;
+}
+
+.price-card .includes .btn {
+  margin-top: 1.5rem;
+}
+
+.faq-ques {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 2px solid #dbd8d8;
+}
+
+.faq-ques h5 {
+  padding-bottom: 1rem;
+}
+
+contact-info {
+  background: #faf1f1;
+}
+
+contact-info h5 {
+  padding: 1rem;
+}
+
+.icon-container {
+  background: #fff;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.icon-container i {
+  font-size: 2.5rem;
+  color: #dc3d45;
+}
+
+form {
+  padding-left: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+form textarea {
+  height: 14rem;
+}
+
+form .btn {
+  width: 40%;
+  padding: 0.75rem 1rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 992px;
+  }
+  .sub-menu {
+    width: 7rem;
+    left: 40%;
+  }
+}
+
+/* MEDIA QUERY FOR  MEDIUM SCREENS */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 720px;
+  }
+  .padding-small {
+    padding: 2rem 0;
+  }
+  /* NAVBAR */
+  .icon-nav {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .nav_bar {
+    position: fixed;
+    height: 5rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 6px 4px #c9c6c6;
+            box-shadow: 0px 6px 4px #c9c6c6;
+    top: 5rem;
+    z-index: 100;
+  }
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 13rem;
+    z-index: 9;
+  }
+  .nav-menu li a {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  .nav-menu li a:hover {
+    color: #1b1e24;
+  }
+  .brand,
+  .bars {
+    position: fixed;
+    top: 6rem;
+    z-index: 99;
+  }
+  .brand {
+    left: 2rem;
+  }
+  .bars {
+    right: 2rem;
+    color: #1b1e24;
+  }
+  .nav-menu li {
+    margin: 0.3rem 0;
+  }
+  #toggle:checked ~ .nav {
+    display: inline-block;
+  }
+  .bars {
+    font-size: 2rem;
+    color: #1b1e24;
+    display: inline-block;
+  }
+  .nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sub-menu li a {
+    color: #5a5757;
+  }
+  /* GENARAL */
+  .column-small {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sm-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .flex-100 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .sm-flex-50 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+  .sm-justify-bw {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .sm-justify-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sm-align-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .margin-bottom {
+    margin-bottom: 1.5rem;
+  }
+  .padding-left-right {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  iframe {
+    max-width: 95%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  form {
+    width: 95%;
+  }
+  .price-card {
+    width: 100%;
+  }
+  .faq-ques {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .products-container article {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .best span {
+    margin-right: 2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
